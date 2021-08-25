@@ -9,7 +9,7 @@
     "webpack-cli": "^4.8.0"
   },
   "scripts": {
-    "build": "webpack ./hello.js && cp index.html dist/",
+    "build": "webpack ./hello.js && cp index.html dist/ && ls -ahl dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
